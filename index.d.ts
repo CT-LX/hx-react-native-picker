@@ -1,5 +1,5 @@
 // Type definitions for react-native-picker
-// Project: https://github.com/beefe/react-native-picker
+// Project: https://github.com/CT-LX/hx-react-native-picker
 // Definitions by: Kyle Roach <https://github.com/iRoachie>
 // TypeScript Version: 2.3.2
 

@@ -6,7 +6,8 @@ import android.app.Dialog;
 import android.graphics.Color;
 import android.graphics.PixelFormat;
 import android.graphics.Typeface;
-import android.support.annotation.Nullable;
+// import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
@@ -543,8 +544,9 @@ public class PickerViewModule extends ReactContextBaseJavaModule implements Life
 
     @Override
     public void onHostPause() {
-        hide();
-        dialog = null;
+        // android 切换后台，picker消失
+        // hide();
+        // dialog = null;
     }
 
     @Override
